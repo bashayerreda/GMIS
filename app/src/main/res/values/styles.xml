@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="ButtonSend">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/btn_request</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:paddingRight">60dp</item>
+        <item name="android:paddingLeft">60dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:text">" ارسال "</item>
+        <item name="android:fontFamily">@font/amin</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+
+    <style name="AppTheme.FullScreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

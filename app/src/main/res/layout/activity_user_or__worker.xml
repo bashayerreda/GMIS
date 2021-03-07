@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_check_type"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_user"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/btn_check_user"
+        android:drawableEnd="@drawable/user_icon"
+        android:fontFamily="@font/amin"
+        android:paddingHorizontal="40dp"
+        android:text="عميل"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/btn_worker"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/btn_user"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_check_worker"
+        android:drawableEnd="@drawable/worker_icon"
+        android:fontFamily="@font/amin"
+        android:paddingHorizontal="35dp"
+        android:text="عامل"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">GMIS </string>
+
+    <string name="clint_name">Ahmed Fares</string>
+    <string name="full_name">الاسم بالكامل</string>
+    <string name="address">العنوان</string>
+    <string name="user_phone">رقم التليفون</string>
+    <string name="bin_number">عدد السلات</string>
+
+    <string name="bin_alert">سيتم تفعيل السلات الخاصة بك عند استكمال الرد على الطلب و دفع المصاريف</string>
+    <string name="bin_alert_employee">سيتم تفعيل السلات الخاصة بك عند استكمال الرد على الطلب</string>
+
+    <string name="company_phone">تليفون:  </string>
+    <string name="cost">المصاريف: </string>
+    <string name="msg_response">تم إضافة السلات المرغوب فيها برجاء التوجه لفرع
+        الشركة لتأكيد عملية الدفع و تفعيل السلات</string>
+
+
+    <string name="username_hint">إسم المُستخدم</string>
+
+    //facebook id
+    <string name="facebook_app_id">908722636207521</string>
+    <string name="fb_login_protocol_scheme">fb908722636207521</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

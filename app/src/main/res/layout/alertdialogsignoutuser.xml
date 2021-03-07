@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:id="@+id/text_view_alertdialoguser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/tansik"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text=" هل تريد تسجيل الخروج ؟"
+        android:textColor="#000000"
+        android:textSize="28sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_alertdialoguser"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_view_no_for_signout_user"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="لا"
+            android:textAlignment="center"
+            android:textColor="#00058B"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/text_view_yesfor_signout_user"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/tansik"
+            android:text="نعم"
+            android:textAlignment="center"
+            android:textColor="#00058B"
+            android:textSize="22sp" />
+
+
+    </LinearLayout>
+</RelativeLayout>
